@@ -1,8 +1,8 @@
 [user]
 	name = Michele
-	email = michele.titolo@gmail.com
+	email = mtitolo@github.com
 [core]
-	excludesfile = /Users/michele/.gitignore_global
+	excludesfile = /Users/mtitolo/.gitignore_global
 [web]
 	browser = ch
 [instaweb]
@@ -11,9 +11,6 @@
 	cmd = open -a \"/Applications/Google Chrome.app\"
 [color]
 	ui = true
-[diff "keynote"]
-  binary = true
-  textconv = /usr/bin/keynote-to-text
 [alias]
   co = checkout
   ci = commit
@@ -22,9 +19,3 @@
   st = status
 [push]
 	default = current
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
